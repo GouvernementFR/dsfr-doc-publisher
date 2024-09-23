@@ -1,0 +1,36 @@
+{
+  "name": "@gouvfr/dsfr-doc-publisher",
+  "version": "1.0.0",
+  "description": "compilateur du site de documentation du Système de Design de l'Etat - DSFR",
+  "repository": "git@github.com:GouvernementFR/dsfr-doc-publisher.git",
+  "author": "Service d'Information du Gouvernement <maxime.beaugrand@pm.gouv.fr>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "type": "module",
+  "engines": {
+    "node": ">=18.16.1"
+  },
+  "bin": {
+    "publisher": "./index.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "packageManager": "yarn@4.3.1",
+  "scripts": {
+    "prepare": "husky",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.1.4"
+  },
+  "dependencies": {
+    "@gouvfr/dsfr#publisher": "github:GouvernementFR/dsfr#a3c547a417632b29ec2575c2d9427574aa596e83",
+    "del": "^7.1.0",
+    "ejs": "^3.1.10",
+    "prettier": "^3.3.3",
+    "yaml": "^2.5.1",
+    "yargs": "^17.7.2"
+  }
+}
