@@ -30,7 +30,6 @@ const RAW_RUNTIME_STATE =
           ["@commitlint/cli", "npm:19.4.0"],\
           ["@commitlint/config-conventional", "npm:19.2.2"],\
           ["@gouvfr/dsfr#publisher", "virtual:1a7aebedbacd2060f127d820fd70acb64e020e4ba9554760519aae689cf053e69b279e143ae485ea366a5f101e15b0b2318b71bceca9fc2177cbc896efafdaef#https://github.com/GouvernementFR/dsfr.git#commit=076835db6bd8c120f29b08bb5846de949ed2a071"],\
-          ["@gouvfr/dsfr-compiler", "file:../dsfr-cli/compiler#../dsfr-cli/compiler::hash=17d2ff&locator=%40gouvfr%2Fdsfr-doc-publisher%40workspace%3A."],\
           ["del", "npm:7.1.0"],\
           ["ejs", "npm:3.1.10"],\
           ["husky", "npm:9.1.5"],\
@@ -306,15 +305,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@gouvfr/dsfr-compiler", [\
-      ["file:../dsfr-cli/compiler#../dsfr-cli/compiler::hash=17d2ff&locator=%40gouvfr%2Fdsfr-doc-publisher%40workspace%3A.", {\
-        "packageLocation": "./.yarn/unplugged/@gouvfr-dsfr-compiler-file-52e9d82f5a/node_modules/@gouvfr/dsfr-compiler/",\
-        "packageDependencies": [\
-          ["@gouvfr/dsfr-compiler", "file:../dsfr-cli/compiler#../dsfr-cli/compiler::hash=17d2ff&locator=%40gouvfr%2Fdsfr-doc-publisher%40workspace%3A."]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["@gouvfr/dsfr-doc-publisher", [\
       ["workspace:.", {\
         "packageLocation": "./",\
@@ -323,7 +313,6 @@ const RAW_RUNTIME_STATE =
           ["@commitlint/cli", "npm:19.4.0"],\
           ["@commitlint/config-conventional", "npm:19.2.2"],\
           ["@gouvfr/dsfr#publisher", "virtual:1a7aebedbacd2060f127d820fd70acb64e020e4ba9554760519aae689cf053e69b279e143ae485ea366a5f101e15b0b2318b71bceca9fc2177cbc896efafdaef#https://github.com/GouvernementFR/dsfr.git#commit=076835db6bd8c120f29b08bb5846de949ed2a071"],\
-          ["@gouvfr/dsfr-compiler", "file:../dsfr-cli/compiler#../dsfr-cli/compiler::hash=17d2ff&locator=%40gouvfr%2Fdsfr-doc-publisher%40workspace%3A."],\
           ["del", "npm:7.1.0"],\
           ["ejs", "npm:3.1.10"],\
           ["husky", "npm:9.1.5"],\

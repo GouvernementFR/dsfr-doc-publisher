@@ -235,13 +235,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gouvfr/dsfr-compiler@file:../dsfr-cli/compiler::locator=%40gouvfr%2Fdsfr-doc-publisher%40workspace%3A.":
-  version: 1.0.0
-  resolution: "@gouvfr/dsfr-compiler@file:../dsfr-cli/compiler#../dsfr-cli/compiler::hash=17d2ff&locator=%40gouvfr%2Fdsfr-doc-publisher%40workspace%3A."
-  checksum: 10c0/7727a04ea7914fa30f09f0f88f74a255d3041d5b502bd7bb3b92bf20d079e3a31da6f3615aa5da34021e8da938564d260b3aee69e53b81295c79b4dfdee593a0
-  languageName: node
-  linkType: hard
-
 "@gouvfr/dsfr-doc-publisher@workspace:.":
   version: 0.0.0-use.local
   resolution: "@gouvfr/dsfr-doc-publisher@workspace:."
@@ -249,7 +242,6 @@ __metadata:
     "@commitlint/cli": "npm:^19.3.0"
     "@commitlint/config-conventional": "npm:^19.2.2"
     "@gouvfr/dsfr#publisher": "github:GouvernementFR/dsfr#a3c547a417632b29ec2575c2d9427574aa596e83"
-    "@gouvfr/dsfr-compiler": ../dsfr-cli/compiler
     del: "npm:^7.1.0"
     ejs: "npm:^3.1.10"
     husky: "npm:^9.1.4"
