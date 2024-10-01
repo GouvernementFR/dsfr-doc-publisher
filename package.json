@@ -6,15 +6,10 @@
   "author": "Service d'Information du Gouvernement <maxime.beaugrand@pm.gouv.fr>",
   "license": "SEE LICENSE IN LICENSE.md",
   "type": "module",
+  "main": "index.js",
   "engines": {
     "node": ">=18.16.1"
   },
-  "bin": {
-    "publisher": "./index.js"
-  },
-  "keywords": [
-    "cli"
-  ],
   "packageManager": "yarn@4.3.1",
   "scripts": {
     "prepare": "husky",

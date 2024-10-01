@@ -248,8 +248,6 @@ __metadata:
     prettier: "npm:^3.3.3"
     yaml: "npm:^2.5.1"
     yargs: "npm:^17.7.2"
-  bin:
-    publisher: ./index.js
   languageName: unknown
   linkType: soft
 
